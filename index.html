@@ -1,505 +1,1404 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
-<meta name="verificación-de-dominio-de-facebook" content="yt7m4fr7gvha3mnhk1m6ww6ti5o4ov" />
-    <title>A Tus Pies Radio</title>
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-
-    <link rel="stylesheet" href="css/animate.css">
-
-    <link rel="stylesheet" href="css/templatemo-style.css">
-
-    <link rel="stylesheet" href="css/responsive.css">
-
-    </head>
-
-
-
-     <!-- Cuerpo de la pagina--> 
-    <body>
-    
-    <div id="video">
-        <div class="preloader">
-            <div class="preloader-bounce">
-                <span></span>
-                <span></span>
-                <span></span>
+        <!-- Resumen Estratégico -->
+        <div id="strategy" class="content-section">
+            <div class="strategy-summary">
+                <h2 style="text-align: center; color: #ffffff; margin-bottom: 30px; font-size: 2.2rem;">RESUMEN ESTRATÉGICO</h2>
+                
+                <div class="summary-card" style="grid-column: 1/-1; background: linear-gradient(45deg, #333333, #1a1a1a); border: 2px solid #ffffff;">
+                    <h3 style="text-align: center; font-size: 1.5rem; margin-bottom: 20px;">⭐ MENSAJE CENTRAL A MANTENER</h3>
+                    <p style="text-align: center; font-size: 1.1rem; font-style: italic; color: #ffffff;">
+                        "En medio de las victorias y las pruebas, de la cima y del valle, hay un lugar seguro: En Jesús. 
+                        Nuestra fe no depende de las circunstancias, sino de Aquel que prometió nunca dejarnos."
+                    </p>
+                    <br>
+                    <p style="text-align: center; color: #cccccc;">
+                        <strong>Cada reel debe reforzar:</strong> Jesús como ancla firme • Esperanza en victoria y prueba • Fidelidad eterna de Dios • Autenticidad en la fe • Comunidad de creyentes
+                    </p>
+                </div>
             </div>
         </div>
 
+        <script>
+            function showSection(sectionId) {
+                // Ocultar todas las secciones
+                const sections = document.querySelectorAll('.content-section');
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                });
 
-<!-- Cabecera de la pagina--> 
-        <header id="header">
+                // Remover clase active de todos los botones
+                const buttons = document.querySelectorAll('.nav-btn');
+                buttons.forEach(button => {
+                    button.classList.remove('active');
+                });
 
-            <div class="container-fluid">
-                <div class="navbar">
+                // Mostrar la sección seleccionada
+                document.getElementById(sectionId).classList.add('active');
+                
+                // Agregar clase active al botón correspondiente
+                event.target.classList.add('active');
+            }
 
-<a title=" A tus pies" href="#"> <img src="images/logo.png" alt="A_Tus_Pies_Radio" />
-<div><audio autoplay controls="controls"> <source src="https://stream.zeno.fm/3ypec04s498uv" type="audio/ogg" /> </audio></div>
+            // Animaciones adicionales
+            document.addEventListener('DOMContentLoaded', function() {
+                const cards = document.querySelectorAll('.reel-card');
+                
+                // Intersection Observer para animaciones
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.transform = 'translateY(0)';
+                            entry.target.style.opacity = '1';
+                        }
+                    });
+                });
 
-</a>
-
-
-
-                 
-                    <div class="navigation-row">
-                        <nav id="navigation">
-                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                            <div class="nav-box navbar-collapse">
-                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="slide01" class="active"><a href="#slide01">Inicio</a></li>
-                                    <li data-menuanchor="slide02"><a href="#slide02">Sobre la Radio</a></li>
-                                    <li data-menuanchor="slide03"><a href="#slide03">Servicios</a></li>
-                                    <li data-menuanchor="slide04"><a href="#slide04">Descarga</a></li>
-                                    <li data-menuanchor="slide05"><a href="#slide05">Contacto</a></li>
-                                    <li data-menuanchor="slide06"><a href="#slide06">Blog</a></li>
-                                    <!--li data-menuanchor="slide07"><a href="#slide07"></a></li-->
-                                </ul>
-                            </div>
-                        </nav>
+                cards.forEach(card => {
+                    card.style.transform = 'translateY(20px)';
+                    card.style.opacity = '0';
+                    card.style.transition = 'all 0.6s ease';
+                    observer.observe(card);
+                });
+            });
+        </script>
+    </div>
+</body>
+</html> <div class="summary-grid">
+                    <div class="summary-card">
+                        <h3>🎯 OBJETIVO PRINCIPAL</h3>
+                        <p>Maximizar el alcance e impacto post-lanzamiento de <span class="highlight">"En Jesús"</span> a través de contenido auténtico que conecte emocionalmente con la audiencia y genere engagement orgánico.</p>
+                        <br>
+                        <p><strong>Metas específicas:</strong></p>
+                        <ul>
+                            <li>Aumentar reproducciones de la canción</li>
+                            <li>Generar testimonios y shares orgánicos</li>
+                            <li>Construir comunidad activa alrededor del mensaje</li>
+                            <li>Posicionar a LettersWorship como artista auténtico</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-        </header>
 
-
-
-
-        <video autoplay muted loop id="myVideo">
-          <source src="images/bg.mp4" type="video/mp4">
-        </video>
-
-
-        <div id="fullpage" class="fullpage-default">
-
-            <div class="section animated-row" data-section="slide01">
-                <div class="section-inner">
-                    <div class="welcome-box">
-                        <span class="welcome-first animate" data-animate="fadeInUp">A_tus_pies</span>
-                        <h1 class="welcome-title animate" data-animate="fadeInUp">RADIO</h1>
-                        <p class="animate" data-animate="fadeInUp">Somos una radio que quiere dejar el nombre de Dios en alto y queremos hacer contenido de calidad para ti</p>
-                        <div class="scroll-down next-section animate data-animate="fadeInUp><img src="images/mouse-scroll.png" alt=""><span>.</span></div>
+                    <div class="summary-card">
+                        <h3>📊 MÉTRICAS A MONITOREAR</h3>
+                        <p><strong>Engagement:</strong></p>
+                        <ul>
+                            <li>Comentarios con testimonios personales</li>
+                            <li>Shares/reposts orgánicos</li>
+                            <li>Duetos y respuestas de seguidores</li>
+                            <li>Tiempo de visualización promedio</li>
+                        </ul>
+                        <br>
+                        <p><strong>Conversión:</strong></p>
+                        <ul>
+                            <li>Clics al link de la canción</li>
+                            <li>Reproducciones completas en plataformas</li>
+                            <li>Crecimiento de seguidores</li>
+                            <li>Menciones y etiquetas espontáneas</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="section animated-row" data-section="slide02">
-                <div class="section-inner">
-                    <div class="about-section">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 wide-col-laptop">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                                <span>Sobre la Radio</span>
-                                                <h2></h2>
-                                                <p>Usamos <strong>Software</strong> y  <strong>Hardware</strong> de ultima generación para compartir contigo una programación de calidad </p>
-                                            </div>
-                                            <div class="facts-list owl-carousel">
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-clock-o counter-icon" aria-hidden="true"></i><span class="count-number">24</span> horas de música
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-music cap counter-icon" aria-hidden="true"></i><span class="count-number">100%</span> Calidad
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-signal counter-icon" aria-hidden="true"></i><span class="count-number">197</span> Países
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-calendar counter-icon" aria-hidden="true"></i><span class="count-number">7</span> Dias a la semana
-                                                    </div>
-                                                </div>
-
-
-
-										<!-- no mostrar esto por ahora 
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-support counter-icon" aria-hidden="true"></i><span class="count-number">5</span> y
-                                                    </div>
-                                                </div>
-                                                -->
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="col-md-6">
-                                     	<div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                       
-                                        	 <span>Enlaces Afiliados</span>
-                                        	 <h2></h2>
-                                        	 <p>tambien puedes encontar nuestra radio en las siguientes páginas </p>
-
-                                        	 <!--a title="radios.com.co/" href="https://radios.com.co/"> <img src="images/radios_online_world.png" alt="radios.com.co/"/-->
-
-                                        	 	<a href="https://radios.com.co/" target="_blank"><img src="https://cdn.webrad.io/images/banners/radios-online-big.png"alt="radios.com.co/" width="250" height="250"></a>
-                                        	
-                                        
-                                    </div >
-                                </div>
-                            </div>
-                        </div>
+                    <div class="summary-card">
+                        <h3>🎬 RECOMENDACIONES DE GRABACIÓN</h3>
+                        <p><strong>Técnicas:</strong></p>
+                        <ul>
+                            <li>Variar locations (casa, calle, iglesia, trabajo)</li>
+                            <li>Iluminación natural siempre que sea posible</li>
+                            <li>Audio claro - invertir en micrófono lapel</li>
+                            <li>Grabar contenido extra para compilaciones</li>
+                        </ul>
+                        <br>
+                        <p><strong>Personalidad:</strong></p>
+                        <ul>
+                            <li>Mantener autenticidad extrovertida</li>
+                            <li>Balance entre vulnerabilidad y confianza</li>
+                            <li>Gestos expresivos pero naturales</li>
+                            <li>Energía contagiosa pero genuina</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="section animated-row" data-section="slide03">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <h2>Servicios</h2>
-                                <span>esto es lo que hacemos</span>
-
-                            </div>
-
-                            <div class="services-section">
-                                <div class="services-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-                                            <h3>Creación de contenido</h3>
-                                            <p>Creamos contenido con temas de actualidad para compartir e interactual con la audiencia </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
-                                            <h3>Servidor en la Nube</h3>
-                                            <p>Nuestra Radio esta alojada en servidores on-line por lo que puedes disfrutra de toda la programacion 24/7 </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
-                                            <h3>Adaptabilidad</h3>
-                                            <p>Puedes oirnos desde cualquier equipo con internet, asi que también puedes hacerlo desde tu celular </p>
-                                        </div>
-                                    </div>
-                                       <!--agregar ma cosas de arriba-->
-                                </div>
-                            </div>
-                        </div>
+                    <div class="summary-card">
+                        <h3>🔑 ELEMENTOS CLAVE PARA EL ÉXITO</h3>
+                        <p><strong>Contenido:</strong></p>
+                        <ul>
+                            <li><span class="highlight">Hooks poderosos</span> en primeros 3 segundos</li>
+                            <li><span class="highlight">Historias reales</span> y testimonios auténticos</li>
+                            <li><span class="highlight">CTAs específicos</span> que generen acción</li>
+                            <li><span class="highlight">Variedad</span> en formatos y tonos</li>
+                        </ul>
+                        <br>
+                        <p><strong>Timing:</strong></p>
+                        <ul>
+                            <li>Publicar 1 reel cada 2-3 días</li>
+                            <li>Horarios de mayor actividad: 7-9pm</li>
+                            <li>Responder comentarios dentro de las primeras 2 horas</li>
+                            <li>Repostear contenido de seguidores</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="section animated-row" data-section="slide04">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <h2>Descarga</h2>
-                                <span>App  Gratis</span>
-                            </div>
+                    <div class="summary-card">
+                        <h3>💡 CONSEJOS ADICIONALES</h3>
+                        <p><strong>Hashtags estratégicos:</strong></p>
+                        <ul>
+                            <li>#EnJesús #LettersWorship #CountryCristiano</li>
+                            <li>#MiAnclaFirme #FeCristiana #MúsicaCristiana</li>
+                            <li>#Testimonio #Esperanza #Adoración</li>
+                        </ul>
+                        <br>
+                        <p><strong>Colaboraciones:</strong></p>
+                        <ul>
+                            <li>Otros artistas cristianos para duetos</li>
+                            <li>Pastores y líderes para validación</li>
+                            <li>Influencers cristianos para mayor alcance</li>
+                            <li>Testimonios de seguidores destacados</li>
+                        </ul>
+                    </div>
 
-
-
- 				 <div class="section-inner">
-                    <div class="about-section">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 wide-col-laptop">
-                                <div class="row">
-                            		<div class="col-md-6">
-                            			<div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                       
-                                        	 <span>Apoye a su emisora</span>
-                                        	 <h2>Donar</h2>
-                                        	 <p> Como saben, somos una estación de transmisión independiente. Para nosotros, siempre ha sido difícil mantener nuestra transmisión sin su apoyo.Para apoyarnos, haga clic en el botón donar y luego elija la aplicación con la que donará. ¡Muchas gracias!</p>
-                                        	
-												<a class="btn" href="https://paypal.me/melycarvajal" target="_blank" i class="fa fa-paypal counter-icon"></i>Donar</a>
-
-
-                                        	
-                                        	</div>
-                                   		 </div>
-                                    </div>
-
-
-                                    <div class="col-md-6">
-                                    	<div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                       
-                                        	 <span>_</span>
-                                        	 <h2>Descargar App</h2>
-                                        	 <p> Aqui podrás descargar la app de A tus pies Radio</p>
-                                        	 <!--img src="images/download_qr.png" alt=""-->
-
-
-                                        	 <a class="btn" href="https://drive.google.com/file/d/10EqkU10K3Q2TjD0xgYu_48V03eiqRh55/view?usp=sharing" target="_blank"></i>Descargar</a>
-                                        	
-                                        </div>
-                                       
-                                         
-                                    </div>
-                                    </div >
-                                </div>
-                            </div>
-                        </div>
+                    <div class="summary-card">
+                        <h3>🚀 IMPLEMENTACIÓN</h3>
+                        <p><strong>Fases:</strong></p>
+                        <ul>
+                            <li><span class="highlight">Semana 1-2:</span> Reels 1-10 (Testimoniales)</li>
+                            <li><span class="highlight">Semana 3-4:</span> Reels 11-20 (Lifestyle)</li>
+                            <li><span class="highlight">Semana 5-6:</span> Reels 21-30 (Creativos)</li>
+                        </ul>
+                        <br>
+                        <p><strong>Flexibilidad:</strong></p>
+                        <ul>
+                            <li>Adaptar contenido según tendencias</li>
+                            <li>Responder a feedback de audiencia</li>
+                            <li>Intercalar reels según engagement</li>
+                            <li>Crear contenido reactivo a comentarios</li>
+                        </ul>
                     </div>
                 </div>
 
-                            
+                <div<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrategia 30 Reels - En Jesús | LettersWorship</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            color: #ffffff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-           <!-- <div class="section animated-row" data-section="slide06">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>RADIO</span>
-                                <h2>Programación</h2>
-                                
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                aqui
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap themes.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap layouts.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download Bootstrap CSS templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>templatemo is the best</h4>
-                                                <p>Please tell your friends about it. Templatemo is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div-->
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(45deg, #000000, #333333);
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
 
-            <div class="section animated-row" data-section="slide05">
-                <div class="section-inner">
+        .header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #ffffff, #cccccc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <h2>Contacto</h2>
-                                <span>estamos cerca de ti</span>
-                            </div>
-                            <div class="services-section">
-                                <div class="services-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                                            <h3>Teléfono</h3>
-                                            A través de este número puedes solicitar tu canción preferida,pedir que hablemos sobre un tema en específico o solicitar oración. estaremos disponibles 24/7"</p>
-                                                    <a class="btn" href="https://wa.me/573003500595 " target="_blank"></i>solicitar</a>
-                                                   
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                                            <h3>E - Mail</h3>
-                                            <p>Si tienes algún proyecto y te gustaría sonar en la radio, tener tu propio programa o podcast, queres una entrevista o alguna otra inquietud puedes escribirnos </p>
-                                             <a class="btn" href="mailto:Atuspiesdejandohuella@gmail.com " target="_blank"></i>Contacto</a>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                            <h3>Dirección</h3>
-											<p>"El equipo de transmisión está ubicado en Cali, Colombia, nuestro lugar de de transmision no está abierto al publico aún, pero a través del internet podemos conectarnos."</p>
-                                                    <span>si quieres puedes colaborar</span>
-                                        </div>
-                                    </div>
-                                       <!--agregar ma cosas de arriba-->
-                                </div>
-                            </div>
+        .header h2 {
+            font-size: 1.5rem;
+            color: #cccccc;
+            margin-bottom: 10px;
+        }
 
+        .header p {
+            color: #999999;
+            font-size: 1.1rem;
+        }
 
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
 
+        .nav-btn {
+            background: #333333;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
 
+        .nav-btn:hover, .nav-btn.active {
+            background: #ffffff;
+            color: #000000;
+            border: 2px solid #ffffff;
+            transform: translateY(-2px);
+        }
 
+        .content-section {
+            display: none;
+            animation: fadeIn 0.5s ease-in;
+        }
 
+        .content-section.active {
+            display: block;
+        }
 
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
+        .reel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin: 20px 0;
+        }
 
+        .reel-card {
+            background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            border: 1px solid #444444;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
+        .reel-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #ffffff, #cccccc);
+        }
 
-            <div class="section animated-row" data-section="slide07">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <h2>Blog</h2>
-                                <span>Ya está aqui</span>
-                                  <h2></h2>
-									<a class="btn" href="https://atuspiesblog.wordpress.com/" target="_blank" ></i>Ir a Blog</a>
+        .reel-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+        }
 
-									  </div>
-                           
-                        </div>
-                    </div>
-                </div>
+        .reel-number {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #ffffff;
+            color: #000000;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .reel-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #ffffff;
+            padding-right: 50px;
+        }
+
+        .reel-concept {
+            color: #cccccc;
+            margin-bottom: 15px;
+            font-style: italic;
+            padding: 10px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            border-left: 4px solid #ffffff;
+        }
+
+        .script-section {
+            margin: 15px 0;
+        }
+
+        .script-label {
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .script-content {
+            background: rgba(0,0,0,0.3);
+            padding: 12px;
+            border-radius: 8px;
+            color: #e0e0e0;
+            border-left: 3px solid #666666;
+        }
+
+        .hook {
+            border-left-color: #ff6b6b;
+        }
+
+        .development {
+            border-left-color: #4ecdc4;
+        }
+
+        .cta {
+            border-left-color: #45b7d1;
+        }
+
+        .technical-notes {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border: 1px dashed #666666;
+        }
+
+        .technical-notes h4 {
+            color: #ffffff;
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        .technical-notes ul {
+            color: #cccccc;
+            padding-left: 20px;
+        }
+
+        .strategy-summary {
+            background: linear-gradient(135deg, #1a1a1a, #000000);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 2px solid #333333;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .summary-card {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #444444;
+        }
+
+        .summary-card h3 {
+            color: #ffffff;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .summary-card p, .summary-card ul {
+            color: #cccccc;
+            font-size: 0.95rem;
+        }
+
+        .summary-card ul {
+            padding-left: 20px;
+        }
+
+        .highlight {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .category-header {
+            background: linear-gradient(45deg, #333333, #1a1a1a);
+            padding: 20px;
+            margin: 30px 0 20px 0;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #555555;
+        }
+
+        .category-header h2 {
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .category-header p {
+            color: #cccccc;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .reel-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .navigation {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ESTRATEGIA 30 REELS</h1>
+            <h2>"En Jesús" - LettersWorship</h2>
+            <p>Campaña Post-Lanzamiento | Country Cristiano</p>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-btn active" onclick="showSection('testimoniales')">Testimoniales (1-10)</button>
+            <button class="nav-btn" onclick="showSection('lifestyle')">Lifestyle/Mensaje (11-20)</button>
+            <button class="nav-btn" onclick="showSection('creativos')">Creativos/Interactivos (21-30)</button>
+            <button class="nav-btn" onclick="showSection('strategy')">Resumen Estratégico</button>
+        </div>
+
+        <!-- Sección Testimoniales -->
+        <div id="testimoniales" class="content-section active">
+            <div class="category-header">
+                <h2>TESTIMONIALES & CONEXIÓN EMOCIONAL</h2>
+                <p>Reels 1-10: Conectando con experiencias reales de fe</p>
             </div>
 
             
-        </div>
+                <div class="reel-card">
+                    <div class="reel-number">1</div>
+                    <div class="reel-title">El Testimonio del Valle</div>
+                    <div class="reel-concept">Concepto: LettersWorship comparte cómo esta canción nació de una experiencia personal difícil, mostrando fotos/videos de ese momento.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"¿Has estado en un lugar tan oscuro que pensaste que Dios te había olvidado? Yo sí..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"Hace [tiempo específico], pasé por [experiencia personal que puede compartir]. Era de noche, estaba solo en mi cuarto, y sentía que las tormentas de la vida no paraban. Pero en ese momento, recordé algo: que mi fuerza no está en mis circunstancias, sino EN JESÚS. Y de ahí nació esta canción. *Muestra fragmento del proceso creativo o fotos de ese momento* Porque hermano, hermana, no importa si estás en la cima del monte o en el valle más profundo..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Tú también has encontrado tu fuerza EN JESÚS? Escucha la canción completa y cuéntame tu historia en los comentarios. Link en mi bio ⬆️"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar en ambiente íntimo (cuarto, sala)</li>
+                            <li>Usar foto/video del proceso creativo de la canción</li>
+                            <li>Tono conversacional y vulnerable</li>
+                            <li>Música de fondo suave de "En Jesús" desde segundo 10</li>
+                        </ul>
+                    </div>
+                </div>
 
-        <div id="social-icons">
-            <div class="text-right">
-                <ul class="social-icons">
-                    <li><a href="https://www.facebook.com/ATusPiesRadio" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/A_Tus_Pies_Blog" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/atuspiesradio/" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/c/atuspiesradio" title="Youtube"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="https://paypal.me/melycarvajal" title="Donaciones"><i class="fa fa-paypal"></i></a></li>
-                     <li><a href="https://github.com/fusckpard1" title="Desarrollo"><i class="fa fa-github"></i></a></li>
-                </ul>
+                <div class="reel-card">
+                    <div class="reel-number">2</div>
+                    <div class="reel-title">Reacciones en Vivo</div>
+                    <div class="reel-concept">LettersWorship sale a la calle y le pone la canción a personas random, capturando sus reacciones genuinas.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Le pongo mi nueva canción a extraños y esto pasó... *cara de sorpresa*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"Oye, disculpa, soy músico y acabé de lanzar una canción. ¿Te gustaría escuchar 30 segundos y darme tu opinión honesta? *Le pone audífonos* La canción se llama 'En Jesús'... *Captura reacciones: algunos emocionados, otros reflexivos, algunos hasta llorando* Mira sus caras... Esta canción está tocando corazones de maneras que ni imaginaba."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Cuál sería tu reacción? Escúchala completa en el link de mi bio y dime qué te transmite ⬇️"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar en lugares públicos concurridos (parques, plazas)</li>
+                            <li>Llevar audífonos buenos</li>
+                            <li>Pedir permiso para grabar</li>
+                            <li>Capturar reacciones auténticas de 3-4 personas</li>
+                            <li>Editar con música de fondo al final</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">3</div>
+                    <div class="reel-title">Mi Ancla en la Tormenta</div>
+                    <div class="reel-concept">Recreación visual de la letra "Durante el frío y la tormenta, mi abrigo es Jesús" con elementos naturales.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Cuando la vida se pone fría y tormentosa, yo tengo algo que tú necesitas saber..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Parado bajo la lluvia o viento fuerte* Mira, la vida a veces se siente exactamente así: fría, incierta, difícil. *Se pone una chaqueta* Pero así como esta chaqueta me protege del frío físico, hay Alguien que es mi abrigo espiritual. *Canta parte de la canción mientras camina* 'Durante el frío y la tormenta, mi abrigo es Jesús...' No importa qué tan fuerte sople el viento de las circunstancias, Él nunca me deja desprotegido."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Cuál es tu abrigo en las tormentas? Escucha 'En Jesús' completa y cuéntame cómo Él te ha protegido ☔"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar en día lluvioso o ventoso (o simular con manguera)</li>
+                            <li>Usar chaqueta como metáfora visual</li>
+                            <li>Caminar mientras habla para dinamismo</li>
+                            <li>Audio claro a pesar del ambiente</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">4</div>
+                    <div class="reel-title">Historias de Seguidores</div>
+                    <div class="reel-concept">LettersWorship lee y reacciona a comentarios/DMs de personas que se han conectado con la canción.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"No pueden creer los mensajes que estoy recibiendo por 'En Jesús'... *muestra el teléfono*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Lee mensajes reales (con permiso)* 'Esta canción llegó justo cuando más la necesitaba...' *Reacción genuina* Esto me emociona tanto porque... *Cuenta brevemente por qué escribió la canción* Es increíble ver cómo Dios usa la música para recordarnos que EN JESÚS tenemos esa ancla firme. *Muestra más reacciones* Cada historia me confirma que no escribí esta canción solo para mí."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Tú también tienes una historia así? Escucha la canción y cuéntamela. Quiero leerte en el próximo video ❤️"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Recopilar testimonios reales (con permiso)</li>
+                            <li>Mostrar capturas de pantalla de comentarios/DMs</li>
+                            <li>Reacciones auténticas y emotivas</li>
+                            <li>Ambiente cálido y personal</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">5</div>
+                    <div class="reel-title">Dueto con Seguidores</div>
+                    <div class="reel-concept">LettersWorship invita a sus seguidores a hacer duetos cantando partes de "En Jesús" y muestra los mejores.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Ustedes cantando 'En Jesús' me tiene así... *expresión de asombro*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Muestra compilación de duetos de seguidores* ¡Miren esto! Personas de diferentes países, edades, situaciones, todos cantando 'En Jesús' con tanto corazón. *Reacciona a cada uno con entusiasmo* Esta señora desde Colombia... Este joven desde México... ¡Es increíble! Cada voz lleva la misma esperanza: que en medio de todo, nuestra vida está EN JESÚS."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Te animas a hacer tu dueto? Usa el audio original, canta tu parte favorita y etiquétame. ¡Quiero verte en el próximo compilado! 🎤"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Crear audio original para duetos</li>
+                            <li>Compilar mejores duetos de seguidores</li>
+                            <li>Reaccionar con entusiasmo genuino</li>
+                            <li>Mostrar diversidad de participantes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">6</div>
+                    <div class="reel-title">Antes y Después de la Fe</div>
+                    <div class="reel-concept">Contraste visual/emocional entre vivir sin ancla vs. vivir con Jesús como ancla firme.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"La diferencia entre tener y no tener un ancla firme es esto..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Lado izquierdo de la pantalla* Antes: cuando las pruebas llegaban, me agarraba de cualquier cosa - trabajo, personas, logros... *gestos de desesperación* Y siempre terminaba decepcionado porque nada en este mundo es lo suficientemente firme. *Lado derecho* Ahora: cuando llegan las tormentas - y créeme que llegan - yo tengo esta canción en mi corazón: 'Mi fuerza solo está en Jesús' *canta con confianza* Es la diferencia entre ser un barco sin ancla y tener la ancla más firme del universo."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿En qué tienes puesta tu esperanza hoy? Escucha 'En Jesús' y descubre dónde encontrar esa ancla firme 🎵"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Usar split screen o transición visual clara</li>
+                            <li>Gesticulación expresiva para contrastar emociones</li>
+                            <li>Cambio de vestuario/iluminación entre "antes" y "después"</li>
+                            <li>Audio de la canción al final</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">7</div>
+                    <div class="reel-title">Reacción del Pastor/Líder</div>
+                    <div class="reel-concept">LettersWorship le muestra la canción a un pastor o líder espiritual y graba su reacción genuina.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Le puse mi canción a mi pastor y su reacción me dejó sin palabras..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"Pastor, quiero que escuche algo nuevo que escribí... *Le pone audífonos* *Graba la reacción del pastor escuchando* *Pastor responde con emoción genuina sobre el mensaje* Pastor: 'Esto es exactamente lo que necesita la iglesia recordar...' *LettersWorship* Eso es exactamente lo que quería transmitir - que nuestra esperanza no está EN las circunstancias, sino EN JESÚS, sin importar si estamos en victoria o prueba."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Qué le dirías a alguien que necesita recordar esto hoy? Comparte 'En Jesús' y bendice a alguien más 🙏"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Coordinar con pastor/líder de confianza</li>
+                            <li>Reacción 100% genuina y espontánea</li>
+                            <li>Ambiente de iglesia u oficina pastoral</li>
+                            <li>Capturar expresiones faciales claramente</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">8</div>
+                    <div class="reel-title">El Momento de Inspiración</div>
+                    <div class="reel-concept">Recreación del momento exacto cuando le llegó la inspiración para escribir "En Jesús".</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Así nació 'En Jesús'... y no fue como esperabas *señala hacia donde estaba*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"Estaba exactamente aquí *señala el lugar* era [hora específica], y estaba pasando por [situación que puede compartir]. De repente, estas palabras llegaron a mi mente: 'Mi fuerza solo está en Jesús' *Toma la guitarra o se sienta al piano* Y empecé a tocar así... *toca los primeros acordes* No fue algo forzado, fue como si el Espíritu Santo mismo me estuviera recordando esta verdad que necesitaba escuchar."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Alguna vez Dios te ha hablado a través de una canción? Escucha 'En Jesús' completa y cuéntame tu experiencia 🎶"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar en el lugar real donde escribió la canción</li>
+                            <li>Tocar fragmento en vivo</li>
+                            <li>Tono íntimo y reflexivo</li>
+                            <li>Iluminación cálida y natural</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">9</div>
+                    <div class="reel-title">Familia y Amigos React</div>
+                    <div class="reel-concept">Su círculo cercano escucha la canción por primera vez y comparten qué significa para ellos.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Le puse 'En Jesús' a mi familia y esto dijeron... *cara de sorpresa emocionada*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Montaje de reacciones* Mamá: 'Hijo, esto es lo que has estado buscando transmitir...' Hermano: 'Bro, esto me llegó justo cuando...' Mejor amigo: 'Esta línea me marcó...' *LettersWorship reflexiona* Es increíble cómo una canción puede tocar de manera diferente a cada persona, pero el mensaje es el mismo: EN JESÚS encontramos esa estabilidad que el mundo no puede dar."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"Comparte esta canción con tu familia y cuéntame qué les transmitió. Link en bio ⬆️ ¡Quiero leer sus historias!"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar reacciones auténticas de familiares/amigos</li>
+                            <li>Ambiente familiar y cálido</li>
+                            <li>Editar como montage dinámico</li>
+                            <li>Incluir reflexión personal al final</li>
+                        </ul>
+                    </div>
+                <div class="reel-grid">
+                    <div class="reel-card">
+    <div class="reel-number">10</div>
+    <div class="reel-title">Pequeños Momentos, Gran Verdad</div>
+    <div class="reel-concept">LettersWorship muestra momentos cotidianos simples (como esperar el bus o caminar por el parque) y cómo en cada uno recuerda que su fuerza está en Jesús.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"No necesitas un gran milagro para recordar esta verdad... *muestra un café o una calle común*"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">"*Montaje de pequeños clips* Caminando a la tienda, esperando el bus, tomando un café... en cada momento repito esto: 'Mi fuerza solo está en Jesús'. No es solo para los días difíciles o grandes decisiones, es para cada instante de mi vida. *canta suavemente mientras camina* Cada paso es un recordatorio de que Él está conmigo, incluso en lo más simple."</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"¿En qué momento simple recuerdas a Jesús hoy? Escucha la canción completa y hazlo parte de tu rutina diaria 🚶☕"</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Grabar clips cortos en diferentes momentos del día</li>
+            <li>Transiciones suaves entre escenas</li>
+            <li>Iluminación natural para dar autenticidad</li>
+            <li>Audio claro y edición con ritmo calmado</li>
+        </ul>
+    </div>
+</div>
+
+                <div class="reel-card">
+                    <div class="reel-number">11</div>
+                    <div class="reel-title">Mi Rutina Matutina con Jesús</div>
+                    <div class="reel-concept">LettersWorship muestra cómo empieza su día recordando que su fuerza está en Jesús.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Así es como empiezo cada día recordando dónde está mi verdadera fuerza..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Time-lapse de rutina matutina* Me levanto y antes que nada... *ora brevemente* 'Jesús, hoy mi fuerza está en ti' *se prepara café cantando suavemente 'En Jesús'* Porque hermano, si no empiezo el día recordando quién es mi ancla, cualquier pequeña tormenta me puede mover. *Se ve en el espejo* Cada mañana me pregunto: ¿dónde voy a buscar mi identidad hoy? ¿En mis logros? ¿En la opinión de otros? No. Mi vida está EN JESÚS."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Cómo empiezas TÚ recordando esta verdad? Comparte tu rutina de fe y escucha la canción completa 🌅"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Time-lapse de rutina matutina</li>
+                            <li>Iluminación natural matutina</li>
+                            <li>Movimientos fluidos y naturales</li>
+                            <li>Audio claro durante todo el proceso</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">12</div>
+                    <div class="reel-title">Explicando a un Niño</div>
+                    <div class="reel-concept">LettersWorship explica el mensaje de "En Jesús" a un niño usando analogías simples y poderosas.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Mi sobrino me preguntó qué significa 'En Jesús' y se lo expliqué así..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Con un niño presente* Mira, cuando hay tormenta, ¿dónde te escondes? *Niño responde: 'en la casa'* Exacto, porque la casa te protege. Jesús es como la casa más fuerte del mundo para nuestro corazón. *muestra con bloques o juguetes* Cuando las cosas se ponen difíciles - como cuando te regañan o estás triste - puedes 'correr' a Jesús. *canta suavemente* 'Mi fuerza solo está en Jesús...' *Niño sonríe* ¿Ves? Él siempre está ahí para protegerte."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Cómo le explicarías esto a un niño? Comparte 'En Jesús' y bendice a toda la familia 👶❤️"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Colaborar con familia (sobrino, hijo de amigo)</li>
+                            <li>Usar analogías visuales simples</li>
+                            <li>Mantener energía positiva y didáctica</li>
+                            <li>Ambiente familiar y acogedor</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">13</div>
+                    <div class="reel-title">En el Gym con Fe</div>
+                    <div class="reel-concept">Conectando el esfuerzo físico con la fortaleza espiritual que viene de Jesús.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Entreno mi cuerpo, pero mi verdadera fuerza viene de otro lugar... *levanta pesa*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Entrenando* Cada rep me recuerda algo... *esfuerzo físico* Mi cuerpo tiene límites, se cansa, a veces falla. *pausa entre ejercicios* Pero hay una fuerza que nunca se agota. *canta mientras entrena* 'Mi fuerza solo está en Jesús...' No importa cuán fuerte me haga físicamente, mi verdadera fortaleza viene de Él. *sigue entrenando* Cuando la vida pesa más que estas mancuernas, EN JESÚS encuentro la fuerza para seguir."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Dónde encuentras TÚ la fuerza para seguir? Escucha 'En Jesús' mientras entrenas y cuéntame 💪🙏"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar en gym o espacio de ejercicio</li>
+                            <li>Coordinar habla con movimientos de ejercicio</li>
+                            <li>Audio claro a pesar del ambiente</li>
+                            <li>Mostrar esfuerzo físico genuino</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">14</div>
+                    <div class="reel-title">Análisis de Letra Profundo</div>
+                    <div class="reel-concept">LettersWorship desglosa línea por línea el significado profundo de una estrofa clave.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Esta línea de 'En Jesús' tiene un significado que te va a volar la mente..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Con la letra escrita visible* 'En victoria o en la prueba, mi esperanza está en Jesús' *pausa* ¿Captaste eso? No dice solo 'en la prueba' - dice también 'EN VICTORIA'. Porque hermano, a veces es más difícil mantener a Jesús como centro cuando todo va bien. *gestiona expresivamente* Es fácil decir 'mi esperanza está en Jesús' cuando estás quebrado, pero ¿cuando tienes éxito? ¿Cuando todo fluye? Ahí es donde se prueba si realmente ÉL es tu ancla o si era solo un recurso de emergencia."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿En cuál es más difícil para ti? ¿En victoria o en prueba? Escucha la canción completa y comenta tu respuesta ⬇️"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Mostrar letra en pantalla (texto grande)</li>
+                            <li>Gestos expresivos y pausas dramáticas</li>
+                            <li>Fondo neutro para enfocar en mensaje</li>
+                            <li>Tono educativo pero apasionado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">15</div>
+                    <div class="reel-title">Un Día Difícil Real</div>
+                    <div class="reel-concept">LettersWorship graba durante un día genuinamente difícil y muestra cómo "En Jesús" lo sostiene en tiempo real.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Hoy ha sido un día horrible, pero déjame mostrarte algo real..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Con honestidad vulnerable* No voy a pretender que todo está bien. Hoy [situación difícil que puede compartir - trabajo, familia, salud, etc.] Y sabes qué, mi primer instinto fue ponerme ansioso, frustrado. *pausa* Pero entonces recordé mi propia canción... *reproduce 'En Jesús' suavemente* 'Él nunca me dejará, él nunca me olvidará...' *respira profundo* Y aquí estoy, no porque el problema se resolvió, sino porque MI ANCLA está firme EN JESÚS."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Cómo te sostiene Jesús en tus días difíciles? Escucha la canción y comparte tu experiencia. Necesito leer esos testimonios 🙏"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar en momento de vulnerabilidad real</li>
+                            <li>Iluminación natural, sin producción</li>
+                            <li>Tono auténtico y sin filtros</li>
+                            <li>Puede ser grabado con celular sin tripié</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">16</div>
+                    <div class="reel-title">El Abuelo y su Sabiduría</div>
+                    <div class="reel-concept">LettersWorship conversa con una persona mayor sobre cómo han visto la fidelidad de Jesús a través de los años.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Le pregunté a don [nombre] de 75 años cuál ha sido su ancla en la vida..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Sentados en banco de parque* Don [nombre], usted ha vivido mucho... guerras, crisis, alegrías, pérdidas... ¿qué lo ha sostenido? *Anciano responde con sabiduría sobre su fe* *LettersWorship escucha con respeto* Exacto, don. Por eso escribí esta canción... *canta suavemente* 'Mi fuerza solo está en Jesús...' Usted lo ha comprobado por décadas. Yo apenas lo estoy descubriendo, pero es la misma verdad."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Conoces a alguien mayor que te haya enseñado sobre la fidelidad de Dios? Comparte 'En Jesús' con ellos y honra su sabiduría 👴❤️"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Buscar persona mayor dispuesta a participar</li>
+                            <li>Ambiente tranquilo y respetuoso</li>
+                            <li>Escuchar más que hablar</li>
+                            <li>Capturar sabiduría genuina</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">17</div>
+                    <div class="reel-title">Workplace Worship</div>
+                    <div class="reel-concept">LettersWorship en su trabajo/estudio mostrando cómo mantener a Jesús como centro en lo cotidiano.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Esto es lo que hago cuando el trabajo se vuelve abrumador... *muestra espacio de trabajo*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*En su espacio de trabajo* Emails, proyectos, deadlines... *muestra la pantalla llena de tareas* A veces siento que me ahogo en responsabilidades. *pausa, respira* Pero entonces hago esto... *pone audífonos y reproduce 'En Jesús'* Por 30 segundos, recuerdo que mi identidad no está en mi productividad. *tararea la canción* 'Pues mi vida está en Jesús...' *vuelve al trabajo con paz* Y desde esa paz, trabajo mejor."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Cómo mantienes tu fe en medio del trabajo? Escucha 'En Jesús' y encuentra esa paz en tu día laboral 💼"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar en espacio de trabajo real</li>
+                            <li>Mostrar pantalla de computadora con tareas</li>
+                            <li>Contraste entre estrés y paz</li>
+                            <li>Usar audífonos como prop visual</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">18</div>
+                    <div class="reel-title">Road Trip con Reflexión</div>
+                    <div class="reel-concept">LettersWorship maneja mientras reflexiona sobre cómo Jesús ha sido su compañía constante en el viaje de la vida.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Manejando solo me di cuenta de algo sobre 'En Jesús' que no había pensado..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Manejando, cámara en dashboard* Estoy aquí solo, pero no me siento solo. ¿Sabes por qué? *música de 'En Jesús' suena* Porque he aprendido que Jesús es el mejor copiloto de la vida. *señala el asiento del copiloto* Él ha estado ahí en cada curva, cada subida, cada bajada del camino. 'Y con su mano siempre me sostendrá...' *canta mientras maneja* Literal, Él maneja conmigo. Cuando no sé hacia dónde ir, Él conoce el camino."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Sientes a Jesús como tu copiloto? Escucha 'En Jesús' en tu próximo viaje y cuéntame dónde te lleva 🚗"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Grabar de manera SEGURA (en semáforos o cámara fija)</li>
+                            <li>Paisaje bonito de fondo</li>
+                            <li>Audio claro dentro del auto</li>
+                            <li>NUNCA comprometer seguridad vial</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">19</div>
+                    <div class="reel-title">Cocina y Comunión</div>
+                    <div class="reel-concept">LettersWorship cocina mientras reflexiona sobre cómo Jesús es el pan de vida y nuestro sustento diario.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Cocinando me di cuenta de por qué Jesús se comparó con el pan... *muestra ingredientes*"</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*Cocinando pan o comida* Mira, el pan es básico, ¿verdad? Lo necesitamos todos los días para sobrevivir. *amasa o cocina* Jesús dijo 'Yo soy el pan de vida' y ahora entiendo por qué. *canta mientras cocina* 'Mi fuerza solo está en Jesús...' Así como mi cuerpo necesita alimento físico diario, mi alma necesita a Jesús diariamente. *huele la comida* Sin Él, estoy espiritualmente desnutrido, sin importar qué tan llena esté mi vida de otras cosas."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"¿Cómo 'alimentas' tu alma diariamente? Escucha 'En Jesús' y cuéntame qué te nutre espiritualmente 🍞"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Cocinar algo que requiera proceso (pan, pasta)</li>
+                            <li>Time-lapse del proceso de cocina</li>
+                            <li>Iluminación cálida de cocina</li>
+                            <li>Conectar metáfora con acciones</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="reel-card">
+                    <div class="reel-number">20</div>
+                    <div class="reel-title">Noche de Reflexión</div>
+                    <div class="reel-concept">Al final del día, LettersWorship reflexiona sobre cómo Jesús lo sostuvo durante todas las pequeñas y grandes cosas del día.</div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Hook (0-3s)</div>
+                        <div class="script-content hook">"Terminando el día y me doy cuenta de todas las veces que Jesús me sostuvo hoy..."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">Desarrollo (4-25s)</div>
+                        <div class="script-content development">"*En su cuarto, luz tenue* Hoy fue un día normal - trabajo, conversaciones, pequeños estrés, pequeñas alegrías... *se sienta reflexivo* Pero al repasar mi día, veo Su mano en todo. *cuenta con dedos* La paciencia para esa conversación difícil, la alegría en ese momento simple, la paz cuando las cosas se complicaron... *canta suavemente* 'Y con su mano siempre me sostendrá...' Es real, hermano. No es solo una canción bonita."</div>
+                    </div>
+                    
+                    <div class="script-section">
+                        <div class="script-label">CTA (26-30s)</div>
+                        <div class="script-content cta">"Repasa tu día: ¿dónde viste la mano de Jesús sosteniéndote? Escucha 'En Jesús' y cuéntanos en los comentarios 🌙"</div>
+                    </div>
+                    
+                    <div class="technical-notes">
+                        <h4>Notas Técnicas:</h4>
+                        <ul>
+                            <li>Iluminación nocturna/tenue</li>
+                            <li>Ambiente íntimo y reflexivo</li>
+                            <li>Tono calmado y meditativo</li>
+                            <li>Puede incluir ventana con vista nocturna</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="reel-card">
+    <div class="reel-number">21</div>
+    <div class="reel-title">Pregunta rápida en pantalla</div>
+    <div class="reel-concept">Lanza una pregunta bíblica o de reflexión con temporizador visual para que la gente responda en comentarios.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"Tienes 3 segundos para responder: ¿Qué es lo que más te cuesta perdonar?"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Mostrar la cuenta regresiva mientras aparece un texto clave de un versículo.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Escribe tu respuesta y etiqueta a alguien que deba ver esto."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Texto grande y cronómetro animado</li>
+            <li>Música de tensión suave</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">22</div>
+    <div class="reel-title">Completa la frase</div>
+    <div class="reel-concept">Frase incompleta para que la audiencia la termine en comentarios.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"Completa esto: *Todo lo puedo en…*"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Mostrar respuestas creativas de la comunidad o cerrar con la frase bíblica real.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Responde en los comentarios y veamos cuántos acertamos."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Fondo minimalista</li>
+            <li>Tipografía clara y ritmo rápido</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">23</div>
+    <div class="reel-title">Dúo abierto</div>
+    <div class="reel-concept">Video cantando o leyendo medio versículo para que otros hagan dúo y lo completen.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"¿Te atreves a terminar esta parte conmigo?"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Cantar o leer la primera mitad y dejar espacio para que el público grabe su parte.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Haz dúo y usemos este hashtag juntos."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Silencio de 5 segundos como guía</li>
+            <li>Marcador visual de entrada</li>
+            <li>Subtítulos claros</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">24</div>
+    <div class="reel-title">Vota con emojis</div>
+    <div class="reel-concept">Dos opciones bíblicas en pantalla para que voten con emojis.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"¿Cuál te representa más? ❤️ Fe vs 🔥 Pasión"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Corto montaje visual de ambas opciones.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Deja tu emoji en comentarios, ¡vamos a ver cuál gana!"</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Gráficos llamativos</li>
+            <li>Transiciones rápidas</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">25</div>
+    <div class="reel-title">Challenge express</div>
+    <div class="reel-concept">Reto de 15 segundos para memorizar un versículo.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"¿Puedes memorizar este verso antes que termine la música?"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Texto que aparece palabra por palabra con música rápida de fondo.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Inténtalo y graba tu propia versión con este audio."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Subtítulos sincronizados</li>
+            <li>Música con tempo marcado</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">26</div>
+    <div class="reel-title">Encuesta visual</div>
+    <div class="reel-concept">Mostrar 3 escenas rápidas y preguntar cuál refleja más su semana.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"¿Con cuál te identificas hoy?"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Escenas cotidianas + frases breves representando cada opción.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Comenta 1, 2 o 3."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Cortes dinámicos</li>
+            <li>Contraste de color</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">27</div>
+    <div class="reel-title">Historia incompleta</div>
+    <div class="reel-concept">Microhistoria cortada para que la gente imagine el final.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"Estaba a punto de rendirme cuando…"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Corto clip de narración y detener antes del clímax.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"¿Cómo crees que terminó? Responde abajo."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Imagen cinematográfica</li>
+            <li>Música suave</li>
+            <li>Texto destacado</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">28</div>
+    <div class="reel-title">Reacción instantánea</div>
+    <div class="reel-concept">Mostrar algo impactante y pedir reacción inmediata.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"¿Cuál sería tu reacción si vieras esto?"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Versículo o mensaje poderoso en pantalla.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Graba tu reacción y sube un dúo."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Audio con impacto</li>
+            <li>Transición fuerte</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">29</div>
+    <div class="reel-title">Mini trivia</div>
+    <div class="reel-concept">Pregunta rápida de conocimiento bíblico con respuesta al final.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"¿Quién dijo esta frase?"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Mostrar pistas rápidas y revelar al final.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Comenta tu respuesta antes de que acabe el tiempo."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Contador regresivo</li>
+            <li>Texto animado</li>
+        </ul>
+    </div>
+</div>
+
+<div class="reel-card">
+    <div class="reel-number">30</div>
+    <div class="reel-title">Tu turno de predicar</div>
+    <div class="reel-concept">Lanzar un tema y pedir a la audiencia que grabe su mini reflexión.</div>
+    
+    <div class="script-section">
+        <div class="script-label">Hook (0-3s)</div>
+        <div class="script-content hook">"Si tuvieras 15 segundos para hablar de Jesús, ¿qué dirías?"</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">Desarrollo (4-25s)</div>
+        <div class="script-content development">Breve ejemplo y dejar espacio visual para que otros graben el suyo.</div>
+    </div>
+    
+    <div class="script-section">
+        <div class="script-label">CTA (26-30s)</div>
+        <div class="script-content cta">"Graba tu video usando este audio y etiqueta la página."</div>
+    </div>
+    
+    <div class="technical-notes">
+        <h4>Notas Técnicas:</h4>
+        <ul>
+            <li>Audio oficial preparado</li>
+            <li>Título claro</li>
+            <li>Ritmo inspirador</li>
+        </ul>
+    </div>
+</div>
+
             </div>
         </div>
-
-    </div>  
-
-
-
-
-
-    <script src="js/jquery.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/fullpage.min.js"></script>
-
-    <script src="js/scrolloverflow.js"></script>
-
-    <script src="js/owl.carousel.min.js"></script>
-
-    <script src="js/jquery.inview.min.js"></script>
-
-    <script src="js/form.js"></script>
-
-    <script src="js/custom.js"></script>
-
-
-  </body>
-
-</html>
